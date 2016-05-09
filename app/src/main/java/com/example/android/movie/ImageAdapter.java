@@ -18,9 +18,6 @@ public class ImageAdapter extends BaseAdapter {
         mContext = c;
     }
 
-    public ImageAdapter(MovieDownFragment movieDownFragment) {
-    }
-
     @Override
     public int getCount() {
         return 0;

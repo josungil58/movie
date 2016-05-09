@@ -7,8 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="MovieDownFragment"
-    tools:showIn="@layout/activity_main">
+    tools:context=".MainActivity$MovieDownFragment">
 
     <GridView
         android:id="@+id/gridview_movies"
@@ -20,7 +19,6 @@
         android:verticalSpacing="10dp"
         android:horizontalSpacing="10dp"
         android:stretchMode="columnWidth"
-        android:gravity="center"
-        />
+        android:gravity="center" />
 
 </FrameLayout>
